@@ -6,10 +6,10 @@ int main(){
 	double PrevBalance,Interest,Total,Payment,NewBalance;
 	cout <<"Enter initial loan: ";
 	cin >> PrevBalance;
-	cout <<"Enter interest rate per year(%): ";
+	cout <<"Enter interest rate per year (%): ";
 	cin >> Interest;
 	Interest = Interest/100;
-	cout <<"Enter amout you able to pay: ";
+	cout <<"Enter amount you can pay per year: ";
 	cin >> Payment;
 	//use 'setw' to set width of table and 'left' to set left-alignment
 	//you can change input argument of 'setw()' to see the effect
